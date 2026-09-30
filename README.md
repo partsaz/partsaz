@@ -1,16 +1,64 @@
-## Hi there 👋
+# 🔧 پارت‌ساز (Partsaz)
 
-<!--
-**partsaz/partsaz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+> هوش مصنوعی طراحی مکانیکی و اکشن فیگور — پروژه‌ی ۲۴ ماهه
 
-Here are some ideas to get you started:
+## 🎯 هدف پروژه
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+یک وب‌اپ/هوش مصنوعی که دو قابلیت داره:
+
+### ۱) ماژول مکانیکی 🛠️
+- کاربر می‌گه: «شاتون ۲۰۶ می‌خوام»
+- AI با CadQuery مدل پارامتریک می‌سازه
+- کاربر با اسلایدر ابعاد رو تغییر می‌ده
+- خروجی STL برای چاپ سه‌بعدی
+
+### ۲) ماژول اکشن فیگور 🎭
+- کاربر چند عکس از یه شخص آپلود می‌کنه
+- AI با ECON/PIFuHD مدل سه‌بعدی می‌سازه
+- مفصل‌بندی می‌کنه (Ball joint، Peg، Magnet)
+- خروجی STL برای چاپ سه‌بعدی
+
+## 📅 نقشه‌ی راه ۲۴ ماهه
+
+| ماه | موضوع |
+|-----|-------|
+| ۱-۲ | پایتون پایه (CS50P) |
+| ۳-۴ | CadQuery + هندسه پارامتریک |
+| ۵-۶ | LLM + Prompt Engineering |
+| ۷-۸ | FastAPI + بک‌اند |
+| ۹-۱۰ | Three.js + فرانت‌اند |
+| ۱۱-۱۲ | MVP مکانیکی |
+| ۱۳-۱۵ | ۵۰+ الگوی پارامتریک + RAG |
+| ۱۶-۱۸ | ماژول اکشن فیگور |
+| ۱۹-۲۱ | مفصل‌بندی + اتصالات |
+| ۲۲-۲۴ | یکپارچه‌سازی نهایی |
+
+## 🛠️ تکنولوژی‌ها
+
+- **زبان:** Python
+- **هندسه مکانیکی:** CadQuery
+- **هندسه فیگور:** ECON, PIFuHD, trimesh
+- **اتوماسیون:** Blender (bpy)
+- **LLM:** OpenAI / Claude / Llama
+- **RAG:** LangChain + Chroma
+- **بک‌اند:** FastAPI
+- **فرانت‌اند:** Three.js + React
+- **استقرار:** Docker
+
+## 📊 وضعیت فعلی
+
+- [x] روز ۱: نصب پایتون، VS Code، GitHub
+- [ ] ماه ۱: پایتون پایه
+- [ ] ماه ۳: CadQuery
+- [ ] ...
+
+## 📚 منابع
+
+- [CS50P](https://cs50.harvard.edu/python/) — پایتون
+- [CadQuery Docs](https://cadquery.readthedocs.io/) — هندسه
+- [FastAPI Docs](https://fastapi.tiangolo.com/) — بک‌اند
+- [Three.js](https://threejs.org/) — فرانت‌اند
+
+---
+
+**ساخته شده با ❤️ توسط [@partsaz](https://github.com/partsaz)**
